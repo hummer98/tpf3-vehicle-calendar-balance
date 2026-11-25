@@ -1,0 +1,54 @@
+{
+	"en": {
+		"mod_name": "Vehicle Last Year Balance at Any Calendar Speed",
+		"mod_desc": "The \"Last Year\" balance in the vehicle window and the \"Balance\" column on the \"Vehicles\" tab of the \"Statistics\" window now sum the last 12 months of the calendar, at any \"Calendar Speed\". The base game ignores the Calendar Speed here. It always sums the same amount of game time, which matches one calendar year only at 1x (about 3 months at 0.25x, more than a year at 2x). Sorting the list by Balance still uses the base game's value."
+	},
+	"ja": {
+		"mod_name": "車両の最終年の残高を暦の直近12か月で集計",
+		"mod_desc": "車両ウィンドウの「最終年」の残高と、「統計」ウィンドウの「車両」タブの「残高」の列を、「カレンダー速度」にかかわらず暦の直近12か月で集計します。バニラは、この集計でカレンダー速度を見ていません。いつも同じ長さのゲーム時間で集計するため、暦の1年になるのは 1x のときだけで、0.25x では約3か月分、2x では1年より長い期間になります。一覧を残高で並べ替える順番は、バニラの値のままです。"
+	},
+	"de": {
+		"mod_name": "Fahrzeug-Ertrag „Letztes Jahr“ über 12 Kalendermonate",
+		"mod_desc": "Der Ertrag „Letztes Jahr“ im Fahrzeugfenster und die Spalte „Ertrag“ im Reiter „Fahrzeuge“ des Fensters „Statistiken“ summieren jetzt die letzten 12 Monate des Kalenders, bei jeder „Kalendergeschwindigkeit“. Das Basisspiel summiert immer dieselbe Spielzeit, die nur bei 1x einem Kalenderjahr entspricht: bei 0,25x etwa 3 Monate, bei 2x mehr als ein Jahr. Das Sortieren der Liste nach Ertrag verwendet weiterhin den Wert des Basisspiels."
+	},
+	"es": {
+		"mod_name": "Saldo «Último año» de vehículos: últimos 12 meses",
+		"mod_desc": "El saldo «Último año» de la ventana del vehículo y la columna «Saldo» de la pestaña «Vehículos» de la ventana «Estadísticas» suman ahora los últimos 12 meses del calendario, con cualquier «Velocidad del calendario». El juego base siempre suma el mismo tiempo de juego, que solo equivale a un año natural a 1x: unos 3 meses a 0,25x y más de un año a 2x. Al ordenar la lista por saldo se sigue usando el valor del juego base."
+	},
+	"fr": {
+		"mod_name": "Solde « Année dernière » des véhicules sur 12 mois",
+		"mod_desc": "Le solde « Année dernière » de la fenêtre du véhicule et la colonne « Solde » de l'onglet « Véhicules » de la fenêtre « Statistiques » totalisent désormais les 12 derniers mois du calendrier, quelle que soit la « Vitesse du calendrier ». Le jeu de base totalise toujours la même durée de jeu, qui ne correspond à une année civile qu'à 1x : environ 3 mois à 0,25x, plus d'un an à 2x. Le tri de la liste par solde utilise toujours la valeur du jeu de base."
+	},
+	"it": {
+		"mod_name": "Saldo «Ultimo anno» dei veicoli sugli ultimi 12 mesi",
+		"mod_desc": "Il saldo «Ultimo anno» della finestra del veicolo e la colonna «Saldo» della scheda «Veicoli» della finestra «Statistiche» sommano ora gli ultimi 12 mesi del calendario, con qualsiasi «Velocità calendario». Il gioco base somma sempre lo stesso tempo di gioco, che corrisponde a un anno solare solo a 1x: circa 3 mesi a 0,25x, più di un anno a 2x. L'ordinamento dell'elenco per saldo usa ancora il valore del gioco base."
+	},
+	"ko": {
+		"mod_name": "달력 기준 운송 수단 작년 잔액",
+		"mod_desc": "운송 수단 창의 '작년' 잔액과 '통계' 창 '운송 수단' 탭의 '잔액' 열이 이제 '달력 속도'와 관계없이 달력 기준 최근 1년을 합산합니다. 기본 게임은 항상 같은 길이의 게임 시간을 합산하므로 1x에서만 달력의 1년과 같고, 0.25x에서는 약 3개월, 2x에서는 1년보다 긴 기간이 됩니다. 목록을 잔액으로 정렬하는 순서는 기본 게임의 값을 그대로 씁니다."
+	},
+	"nl": {
+		"mod_name": "Voertuigsaldo 'Vorig jaar' over de laatste 12 maanden",
+		"mod_desc": "Het saldo 'Vorig jaar' in het voertuigvenster en de kolom 'Saldo' op het tabblad 'Voertuigen' van het venster 'Statistieken' tellen nu de laatste 12 maanden van de kalender op, bij elke 'Kalendersnelheid'. Het basisspel telt altijd dezelfde speeltijd op, die alleen bij 1x gelijk is aan een kalenderjaar: bij 0,25x ongeveer 3 maanden, bij 2x meer dan een jaar. Sorteren van de lijst op saldo gebruikt nog steeds de waarde van het basisspel."
+	},
+	"pl": {
+		"mod_name": "Bilans pojazdów „Ostatni rok” z ostatnich 12 miesięcy",
+		"mod_desc": "Bilans „Ostatni rok” w oknie pojazdu oraz kolumna „Bilans” na karcie „Pojazdy” okna „Statystyki” sumują teraz ostatnie 12 miesięcy kalendarza, niezależnie od ustawienia „Szybkość kalendarza”. Gra podstawowa zawsze sumuje ten sam czas gry, który odpowiada rokowi kalendarzowemu tylko przy 1x: przy 0,25x to około 3 miesiące, przy 2x ponad rok. Sortowanie listy według bilansu nadal używa wartości z gry podstawowej."
+	},
+	"pt_BR": {
+		"mod_name": "Saldo \"Último Ano\" dos veículos nos últimos 12 meses",
+		"mod_desc": "O saldo \"Último Ano\" da janela do veículo e a coluna \"Saldo\" da aba \"Veículos\" da janela \"Estatísticas\" agora somam os últimos 12 meses do calendário, em qualquer \"Velocidade do Calendário\". O jogo base sempre soma o mesmo tempo de jogo, que só equivale a um ano civil em 1x: cerca de 3 meses em 0,25x, mais de um ano em 2x. Ordenar a lista por saldo continua usando o valor do jogo base."
+	},
+	"ru": {
+		"mod_name": "Баланс транспорта «Последний год» за 12 месяцев",
+		"mod_desc": "Баланс «Последний год» в окне транспортного средства и столбец «Баланс» на вкладке «Транспорт» окна «Статистика» теперь считают последние 12 месяцев календаря при любом значении «Скорость календаря». Базовая игра всегда суммирует одно и то же игровое время, которое равно календарному году только при 1x: при 0,25x это около 3 месяцев, при 2x — больше года. Сортировка списка по балансу по-прежнему использует значение базовой игры."
+	},
+	"zh_CN": {
+		"mod_name": "载具“去年”结余按最近 12 个月计算",
+		"mod_desc": "载具窗口的“去年”结余，以及“数据”窗口“载具”标签页中的“结余”列，现在无论“日历速度”如何，都按日历上的最近 12 个月合计。基础游戏总是合计相同长度的游戏时间，只有在 1x 时才等于一个日历年：0.25x 时约为 3 个月，2x 时超过 1 年。列表按结余排序时仍使用基础游戏的数值。"
+	},
+	"zh_TW": {
+		"mod_name": "車輛「去年」收支按最近 12 個月計算",
+		"mod_desc": "車輛視窗的「去年」收支，以及「統計數據」視窗「車輛」分頁中的「收支」欄，現在不論「月曆速度」為何，都按月曆上的最近 12 個月合計。基礎遊戲總是合計相同長度的遊戲時間，只有在 1x 時才等於一個曆年：0.25x 時約為 3 個月，2x 時超過 1 年。清單按收支排序時仍使用基礎遊戲的數值。"
+	}
+}
