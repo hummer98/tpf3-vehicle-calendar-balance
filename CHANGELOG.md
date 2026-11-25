@@ -8,6 +8,8 @@ recorded here. The format follows
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-11-25
+
 ### Added
 - First public release. The **Last Year** balance in the vehicle window and
   the **Balance** column on the **Vehicles** tab of the **Statistics**
