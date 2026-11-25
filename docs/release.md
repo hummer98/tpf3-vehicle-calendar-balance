@@ -100,3 +100,7 @@ python3 tools/release.py --github-only        # HEAD のタグの push と GitHu
 - mod.io の MOD ID は、最初のアップロードのあとにここへ書く（まだ無い）。
 - ゲームは、これを `local/staging_area/hummer_vehicle_calendar_balance_1/_metadata/mod.io_fileid.txt` に書く（名前は fileid でも、中身は MOD ID）。`stage.py` が置き直しのたびに引き継ぐ。リポジトリには入れない（zip の `_metadata/` に入ってしまうため）。
 - ステージングのコピーが消えたときは、`stage.py --first-upload` で置き直してから、上の番号だけを書いた `mod.io_fileid.txt` をそこへ戻す。戻さずにアップロードすると、mod.io に2つ目のページができる。
+
+## mod.io
+
+- MOD ID: 6552141（2026-11-25 に 1.0.0 を新規に公開）。ゲームが `staging_area/<folder>/_metadata/mod.io_fileid.txt` に書く番号と同じ。次の更新でこの写しが要る。
