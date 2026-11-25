@@ -68,8 +68,7 @@ Known limits:
 
 ## Install
 
-- mod.io: (link added after the first upload; or subscribe in the game's
-  mod hub).
+- mod.io: https://mod.io/g/transportfever3/m/vehicle-last-year-balance-at-any-calendar-speed (or subscribe in the game's mod hub).
 - Manually: the game loads a local mod only from a folder named exactly
   `hummer_vehicle_calendar_balance_1` inside
   `<Steam>/userdata/<your id>/3493540/local/mods/`.
@@ -187,7 +186,7 @@ the changelog disagree.
 
 ### 導入
 
-- mod.io:（最初のアップロードのあとに URL を書きます。ゲームの MOD ハブから購読することもできます）
+- mod.io: https://mod.io/g/transportfever3/m/vehicle-last-year-balance-at-any-calendar-speed（ゲームの MOD ハブから購読することもできます）
 - 手で入れる場合: ゲームは、`<Steam>/userdata/<あなたの ID>/3493540/local/mods/` の中の、名前がちょうど `hummer_vehicle_calendar_balance_1` のフォルダからだけ読み込みます。
   - release の zip から: そのフォルダを作り、zip をその**中に**展開します（zip には上のフォルダがありません）。
   - GitHub から: `local/mods/` の中で `git clone https://github.com/hummer98/tpf3-vehicle-calendar-balance hummer_vehicle_calendar_balance_1`（別のフォルダ名では読み込まれません）。
