@@ -8,6 +8,8 @@ recorded here. The format follows
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-26
+
 ### Changed
 - Renamed the mod to "Vehicle Last Year Balance Follows Calendar Speed". The
   old title and texts ("at any Calendar Speed") read as if the mod ignored

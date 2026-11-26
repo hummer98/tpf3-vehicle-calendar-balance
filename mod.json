@@ -1,6 +1,6 @@
 {
 	"modId": "hummer_vehicle_calendar_balance",
-	"revision": 10000,
+	"revision": 10001,
 	"severityAdd": "None",
 	"severityRemove": "None",
 	"visible": true,
