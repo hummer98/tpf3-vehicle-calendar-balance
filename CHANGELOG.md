@@ -19,7 +19,10 @@ recorded here. The format follows
   the Calendar Speed here, and add when the mod's value matters: reading
   "Last Year" as a year's amount, and comparing a vehicle before and after a
   change of the calendar speed.
-- The mod.io summary is shorter, to stay within 250 bytes.
+- The Japanese title is now "車両の最終年の残高を、カレンダー速度に合わせて集計", and the
+  cover shows the new English title.
+- The mod.io summary, in English and Japanese, is shorter, to stay within
+  250 bytes.
 
 ## [1.0.0] - 2026-11-25
 
