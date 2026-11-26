@@ -17,7 +17,7 @@ LANGS = ["en", "ja", "de", "es", "fr", "it", "ko", "nl", "pl", "pt_BR", "ru",
 UI_WORDS = ["Last Year", "Balance", "Statistics", "Vehicles",
             "Calendar Speed"]
 MOD_NAMES = {"en": "Vehicle Last Year Balance Follows Calendar Speed",
-             "ja": "車両の最終年の残高をカレンダー速度に合わせる"}
+             "ja": "車両の最終年の残高を、カレンダー速度に合わせて集計"}
 
 
 def load_strings():

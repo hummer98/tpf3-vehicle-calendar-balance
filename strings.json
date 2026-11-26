@@ -4,7 +4,7 @@
 		"mod_desc": "The \"Last Year\" balance in the vehicle window and the \"Balance\" column on the \"Vehicles\" tab of the \"Statistics\" window now sum the last 12 months of the calendar, following the \"Calendar Speed\". The base game ignores the Calendar Speed here. It always sums the same amount of game time, which matches one calendar year only at 1x (about 3 months at 0.25x, more than a year at 2x). Sorting the list by Balance still uses the base game's value.\n\nIf you only compare vehicles with each other at one calendar speed, the base game's values rank them the same. The mod helps when you read \"Last Year\" as a year's amount (for example, to see how many years a vehicle takes to pay back its price) and when you change the calendar speed during play (the same vehicle's balance can be compared before and after)."
 	},
 	"ja": {
-		"mod_name": "車両の最終年の残高をカレンダー速度に合わせる",
+		"mod_name": "車両の最終年の残高を、カレンダー速度に合わせて集計",
 		"mod_desc": "車両ウィンドウの「最終年」の残高と、「統計」ウィンドウの「車両」タブの「残高」の列を、「カレンダー速度」に合わせて、暦の直近12か月で集計します。バニラは、この集計でカレンダー速度を見ていません。いつも同じ長さのゲーム時間で集計するため、暦の1年になるのは 1x のときだけで、0.25x では約3か月分、2x では1年より長い期間になります。一覧を残高で並べ替える順番は、バニラの値のままです。\n\n同じカレンダー速度のまま車両どうしを比べるだけなら、バニラの値でも順番は変わりません。この MOD が役に立つのは、「最終年」の値を1年分の額として読むとき（車両の購入価格と比べて、元が取れるまでの年数を見積もるなど）と、プレイの途中でカレンダー速度を変えたとき（変える前と後で、同じ車両の残高を比べられます）です。"
 	},
 	"de": {

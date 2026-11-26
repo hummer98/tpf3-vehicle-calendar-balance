@@ -2,9 +2,7 @@
 
 The in-game uploader has no description field: this goes to the mod.io web page.
 
-**Summary:** The vehicle window's "Last Year" balance and the Statistics Balance column follow the calendar speed and sum the last 12 calendar months.
-
-**概要（日本語。mod.io の summary の欄は 250 バイトまでなので、欄には英語だけを入れる）:** 車両の「最終年」の残高と統計の残高の列を、カレンダー速度に合わせて暦の直近12か月で集計。
+**Summary:** The vehicle "Last Year" balance and the Statistics Balance column follow the calendar speed and sum the last 12 calendar months. / 車両の「最終年」と統計の残高を、カレンダー速度に合わせて暦の直近12か月で集計。
 
 ## English: Vehicle Last Year Balance Follows Calendar Speed
 
@@ -22,7 +20,7 @@ Display only: nothing is stored in the save, so adding and removing the mod are 
 
 Texts in all 13 game languages. License: MIT. Source code: https://github.com/hummer98/tpf3-vehicle-calendar-balance
 
-## 日本語: 車両の最終年の残高をカレンダー速度に合わせる
+## 日本語: 車両の最終年の残高を、カレンダー速度に合わせて集計
 
 **この MOD がすること：** 車両ウィンドウの「最終年」の残高と、「統計」ウィンドウの「車両」タブの「残高」の列を、「カレンダー速度」に合わせて、暦の直近12か月で集計します。
 

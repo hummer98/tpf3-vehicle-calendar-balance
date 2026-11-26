@@ -19,7 +19,7 @@ recorded here. The format follows
   the Calendar Speed here, and add when the mod's value matters: reading
   "Last Year" as a year's amount, and comparing a vehicle before and after a
   change of the calendar speed.
-- The mod.io summary is English only, to stay within 250 bytes.
+- The mod.io summary is shorter, to stay within 250 bytes.
 
 ## [1.0.0] - 2026-11-25
 
