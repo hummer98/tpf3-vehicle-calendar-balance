@@ -1,10 +1,10 @@
-# Vehicle Last Year Balance at Any Calendar Speed (Transport Fever 3)
+# Vehicle Last Year Balance Follows Calendar Speed (Transport Fever 3)
 
 [日本語は下にあります](#日本語)
 
 **What this mod does:** the **Last Year** balance in the vehicle window and
 the **Balance** column on the **Vehicles** tab of the **Statistics** window
-sum the last 12 months of the calendar, whatever the **Calendar Speed** is.
+sum the last 12 months of the calendar, following the **Calendar Speed**.
 
 ## Why
 
@@ -25,6 +25,12 @@ year, and at a fast one more. The mod looks up, in the game's own
 calendar, when the same day one year ago began, and sums the balance from
 there to now. When you change the calendar speed during the year, the
 window follows the calendar, not the game time.
+
+If you only compare vehicles with each other at one calendar speed, the
+base game's values rank them the same. The mod helps when you read "Last
+Year" as a year's amount (for example, to see how many years a vehicle
+takes to pay back its price) and when you change the calendar speed during
+play (the same vehicle's balance can be compared before and after).
 
 ## Where it acts, and where not
 
@@ -141,9 +147,9 @@ the changelog disagree.
 
 ## 日本語
 
-**車両の最終年の残高を暦の直近12か月で集計（Transport Fever 3）**
+**車両の最終年の残高をカレンダー速度に合わせる（Transport Fever 3）**
 
-**この MOD がすること:** 車両ウィンドウの「**最終年**」の残高と、「**統計**」ウィンドウの「**車両**」タブの「**残高**」の列を、「**カレンダー速度**」にかかわらず、暦の直近12か月で集計します。
+**この MOD がすること:** 車両ウィンドウの「**最終年**」の残高と、「**統計**」ウィンドウの「**車両**」タブの「**残高**」の列を、「**カレンダー速度**」に合わせて、暦の直近12か月で集計します。
 
 ### なぜ
 
@@ -158,6 +164,8 @@ the changelog disagree.
 | 4x | 1年より長い | 直近の12か月 |
 
 カレンダーが遅いと、車両は1年で見たよりずっと稼いでいないように見え、速いと実際より多く稼いでいるように見えます。この MOD は、ゲームの暦から「1年前の同じ日」が始まった時点を引き、そこから今までの残高を集計します。年の途中でカレンダー速度を変えても、範囲はゲーム時間ではなく暦に合わせます。
+
+同じカレンダー速度のまま車両どうしを比べるだけなら、バニラの値でも順番は変わりません。この MOD が役に立つのは、「最終年」の値を1年分の額として読むとき（車両の購入価格と比べて、元が取れるまでの年数を見積もるなど）と、プレイの途中でカレンダー速度を変えたとき（変える前と後で、同じ車両の残高を比べられます）です。
 
 ### 効く所・効かない所
 

@@ -16,8 +16,8 @@ LANGS = ["en", "ja", "de", "es", "fr", "it", "ko", "nl", "pl", "pt_BR", "ru",
 # (game_bar/game_bar_widgets.tl)
 UI_WORDS = ["Last Year", "Balance", "Statistics", "Vehicles",
             "Calendar Speed"]
-MOD_NAMES = {"en": "Vehicle Last Year Balance at Any Calendar Speed",
-             "ja": "車両の最終年の残高を暦の直近12か月で集計"}
+MOD_NAMES = {"en": "Vehicle Last Year Balance Follows Calendar Speed",
+             "ja": "車両の最終年の残高をカレンダー速度に合わせる"}
 
 
 def load_strings():
@@ -94,6 +94,52 @@ class StringsTest(unittest.TestCase):
                             s["ja"]["mod_name"], s["ja"]["mod_desc"]))
         self.assertEqual(info["authors"], [{"name": "hummer",
                                             "role": "CREATOR"}])
+
+    def test_mod_io_name_and_summary_fit(self):
+        # mod.io refuses a name over 50 characters; the summary is kept to
+        # 250 bytes so that no multi-byte text can push it over the limit
+        info = load_modinfo()
+        self.assertLessEqual(len(info["name"]), 50)
+        self.assertLessEqual(len(info["summary"].encode("utf-8")), 250)
+        with open(os.path.join(ROOT, "docs", "modio_description.md"),
+                  encoding="utf-8") as f:
+            page = f.read()
+        for line in page.splitlines():
+            if line.startswith("**Summary:**") or line.startswith("**概要"):
+                text = line.split(":** ", 1)[1]
+                self.assertLessEqual(len(text.encode("utf-8")), 250, line)
+
+    def test_release_title_is_the_mod_name(self):
+        # the GitHub release and the tag message carry the mod's name
+        import sys
+        sys.path.insert(0, os.path.join(ROOT, "tools"))
+        import release
+        self.assertEqual(release.TITLE, load_modinfo()["name"])
+
+    def test_texts_say_the_mod_follows_the_calendar_speed(self):
+        # the old title and wording read as if the mod ignored the speed;
+        # it is the base game that ignores it
+        s = load_strings()
+        old = ["at Any Calendar Speed", "at any", "whatever", "かかわらず",
+               "によらず", "bei jeder", "con cualquier", "quelle que soit",
+               "con qualsiasi", "관계없이", "bij elke", "niezależnie",
+               "em qualquer", "при любом", "无论", "不論"]
+        for lang in LANGS:
+            for key in ("mod_name", "mod_desc"):
+                for w in old:
+                    self.assertNotIn(w, s[lang][key], "%s %s" % (lang, key))
+        info = load_modinfo()
+        for w in old:
+            self.assertNotIn(w, info["name"] + info["summary"]
+                             + info["description"])
+
+    def test_every_language_has_the_when_it_helps_paragraph(self):
+        # the second paragraph tells when the mod's value differs in use
+        s = load_strings()
+        for lang in LANGS:
+            self.assertEqual(s[lang]["mod_desc"].count("\n\n"), 1, lang)
+        self.assertIn("pay back its price", s["en"]["mod_desc"])
+        self.assertIn("元が取れるまでの年数", s["ja"]["mod_desc"])
 
 
 if __name__ == "__main__":

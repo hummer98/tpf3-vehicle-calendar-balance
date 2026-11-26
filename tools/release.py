@@ -56,7 +56,7 @@ ROOT = package.ROOT
 VERSION_FILE = "VERSION"
 MOD_JSON = "mod.json"
 CHANGELOG = "CHANGELOG.md"
-TITLE = "Vehicle Last Year Balance at Any Calendar Speed"
+TITLE = "Vehicle Last Year Balance Follows Calendar Speed"
 DEFAULT_REMOTE = "github"
 # no leading zeros, no suffix, minor and patch below 100, so the revision
 # grows with the version (tools/stage.py wants a higher one per upload)

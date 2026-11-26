@@ -1,54 +1,54 @@
 {
 	"en": {
-		"mod_name": "Vehicle Last Year Balance at Any Calendar Speed",
-		"mod_desc": "The \"Last Year\" balance in the vehicle window and the \"Balance\" column on the \"Vehicles\" tab of the \"Statistics\" window now sum the last 12 months of the calendar, at any \"Calendar Speed\". The base game ignores the Calendar Speed here. It always sums the same amount of game time, which matches one calendar year only at 1x (about 3 months at 0.25x, more than a year at 2x). Sorting the list by Balance still uses the base game's value."
+		"mod_name": "Vehicle Last Year Balance Follows Calendar Speed",
+		"mod_desc": "The \"Last Year\" balance in the vehicle window and the \"Balance\" column on the \"Vehicles\" tab of the \"Statistics\" window now sum the last 12 months of the calendar, following the \"Calendar Speed\". The base game ignores the Calendar Speed here. It always sums the same amount of game time, which matches one calendar year only at 1x (about 3 months at 0.25x, more than a year at 2x). Sorting the list by Balance still uses the base game's value.\n\nIf you only compare vehicles with each other at one calendar speed, the base game's values rank them the same. The mod helps when you read \"Last Year\" as a year's amount (for example, to see how many years a vehicle takes to pay back its price) and when you change the calendar speed during play (the same vehicle's balance can be compared before and after)."
 	},
 	"ja": {
-		"mod_name": "車両の最終年の残高を暦の直近12か月で集計",
-		"mod_desc": "車両ウィンドウの「最終年」の残高と、「統計」ウィンドウの「車両」タブの「残高」の列を、「カレンダー速度」にかかわらず暦の直近12か月で集計します。バニラは、この集計でカレンダー速度を見ていません。いつも同じ長さのゲーム時間で集計するため、暦の1年になるのは 1x のときだけで、0.25x では約3か月分、2x では1年より長い期間になります。一覧を残高で並べ替える順番は、バニラの値のままです。"
+		"mod_name": "車両の最終年の残高をカレンダー速度に合わせる",
+		"mod_desc": "車両ウィンドウの「最終年」の残高と、「統計」ウィンドウの「車両」タブの「残高」の列を、「カレンダー速度」に合わせて、暦の直近12か月で集計します。バニラは、この集計でカレンダー速度を見ていません。いつも同じ長さのゲーム時間で集計するため、暦の1年になるのは 1x のときだけで、0.25x では約3か月分、2x では1年より長い期間になります。一覧を残高で並べ替える順番は、バニラの値のままです。\n\n同じカレンダー速度のまま車両どうしを比べるだけなら、バニラの値でも順番は変わりません。この MOD が役に立つのは、「最終年」の値を1年分の額として読むとき（車両の購入価格と比べて、元が取れるまでの年数を見積もるなど）と、プレイの途中でカレンダー速度を変えたとき（変える前と後で、同じ車両の残高を比べられます）です。"
 	},
 	"de": {
-		"mod_name": "Fahrzeug-Ertrag „Letztes Jahr“ über 12 Kalendermonate",
-		"mod_desc": "Der Ertrag „Letztes Jahr“ im Fahrzeugfenster und die Spalte „Ertrag“ im Reiter „Fahrzeuge“ des Fensters „Statistiken“ summieren jetzt die letzten 12 Monate des Kalenders, bei jeder „Kalendergeschwindigkeit“. Das Basisspiel summiert immer dieselbe Spielzeit, die nur bei 1x einem Kalenderjahr entspricht: bei 0,25x etwa 3 Monate, bei 2x mehr als ein Jahr. Das Sortieren der Liste nach Ertrag verwendet weiterhin den Wert des Basisspiels."
+		"mod_name": "Fahrzeugertrag „Letztes Jahr“ nach Kalendergeschwindigkeit",
+		"mod_desc": "Der Ertrag „Letztes Jahr“ im Fahrzeugfenster und die Spalte „Ertrag“ im Reiter „Fahrzeuge“ des Fensters „Statistiken“ summieren jetzt die letzten 12 Monate des Kalenders, passend zur „Kalendergeschwindigkeit“. Das Basisspiel berücksichtigt die Kalendergeschwindigkeit hier nicht. Es summiert immer dieselbe Spielzeit, die nur bei 1x einem Kalenderjahr entspricht: bei 0,25x etwa 3 Monate, bei 2x mehr als ein Jahr. Das Sortieren der Liste nach Ertrag verwendet weiterhin den Wert des Basisspiels.\n\nWenn Sie Fahrzeuge nur bei einer Kalendergeschwindigkeit miteinander vergleichen, ergeben die Werte des Basisspiels dieselbe Reihenfolge. Der Mod hilft, wenn Sie „Letztes Jahr“ als Betrag eines Jahres lesen (zum Beispiel, um abzuschätzen, in wie vielen Jahren sich ein Fahrzeug amortisiert) und wenn Sie die Kalendergeschwindigkeit während des Spiels ändern (der Ertrag desselben Fahrzeugs lässt sich vorher und nachher vergleichen)."
 	},
 	"es": {
-		"mod_name": "Saldo «Último año» de vehículos: últimos 12 meses",
-		"mod_desc": "El saldo «Último año» de la ventana del vehículo y la columna «Saldo» de la pestaña «Vehículos» de la ventana «Estadísticas» suman ahora los últimos 12 meses del calendario, con cualquier «Velocidad del calendario». El juego base siempre suma el mismo tiempo de juego, que solo equivale a un año natural a 1x: unos 3 meses a 0,25x y más de un año a 2x. Al ordenar la lista por saldo se sigue usando el valor del juego base."
+		"mod_name": "Saldo «Último año» según la velocidad del calendario",
+		"mod_desc": "El saldo «Último año» de la ventana del vehículo y la columna «Saldo» de la pestaña «Vehículos» de la ventana «Estadísticas» suman ahora los últimos 12 meses del calendario, de acuerdo con la «Velocidad del calendario». El juego base no tiene en cuenta aquí la Velocidad del calendario. Siempre suma el mismo tiempo de juego, que solo equivale a un año natural a 1x: unos 3 meses a 0,25x y más de un año a 2x. Al ordenar la lista por saldo se sigue usando el valor del juego base.\n\nSi solo comparas vehículos entre sí con una misma velocidad del calendario, los valores del juego base los ordenan igual. El mod sirve cuando lees «Último año» como el importe de un año (por ejemplo, para estimar en cuántos años un vehículo amortiza su precio) y cuando cambias la velocidad del calendario durante la partida (se puede comparar el saldo del mismo vehículo antes y después)."
 	},
 	"fr": {
-		"mod_name": "Solde « Année dernière » des véhicules sur 12 mois",
-		"mod_desc": "Le solde « Année dernière » de la fenêtre du véhicule et la colonne « Solde » de l'onglet « Véhicules » de la fenêtre « Statistiques » totalisent désormais les 12 derniers mois du calendrier, quelle que soit la « Vitesse du calendrier ». Le jeu de base totalise toujours la même durée de jeu, qui ne correspond à une année civile qu'à 1x : environ 3 mois à 0,25x, plus d'un an à 2x. Le tri de la liste par solde utilise toujours la valeur du jeu de base."
+		"mod_name": "Solde « Année dernière » selon la vitesse du calendrier",
+		"mod_desc": "Le solde « Année dernière » de la fenêtre du véhicule et la colonne « Solde » de l'onglet « Véhicules » de la fenêtre « Statistiques » totalisent désormais les 12 derniers mois du calendrier, en suivant la « Vitesse du calendrier ». Le jeu de base ne tient pas compte ici de la Vitesse du calendrier. Il totalise toujours la même durée de jeu, qui ne correspond à une année civile qu'à 1x : environ 3 mois à 0,25x, plus d'un an à 2x. Le tri de la liste par solde utilise toujours la valeur du jeu de base.\n\nSi vous comparez seulement des véhicules entre eux à une même vitesse du calendrier, les valeurs du jeu de base les classent de la même façon. Le mod est utile quand vous lisez « Année dernière » comme le montant d'une année (par exemple pour estimer en combien d'années un véhicule rembourse son prix) et quand vous changez la vitesse du calendrier en cours de partie (le solde d'un même véhicule peut être comparé avant et après)."
 	},
 	"it": {
-		"mod_name": "Saldo «Ultimo anno» dei veicoli sugli ultimi 12 mesi",
-		"mod_desc": "Il saldo «Ultimo anno» della finestra del veicolo e la colonna «Saldo» della scheda «Veicoli» della finestra «Statistiche» sommano ora gli ultimi 12 mesi del calendario, con qualsiasi «Velocità calendario». Il gioco base somma sempre lo stesso tempo di gioco, che corrisponde a un anno solare solo a 1x: circa 3 mesi a 0,25x, più di un anno a 2x. L'ordinamento dell'elenco per saldo usa ancora il valore del gioco base."
+		"mod_name": "Saldo «Ultimo anno» secondo la velocità calendario",
+		"mod_desc": "Il saldo «Ultimo anno» della finestra del veicolo e la colonna «Saldo» della scheda «Veicoli» della finestra «Statistiche» sommano ora gli ultimi 12 mesi del calendario, seguendo la «Velocità calendario». Il gioco base qui non tiene conto della Velocità calendario. Somma sempre lo stesso tempo di gioco, che corrisponde a un anno solare solo a 1x: circa 3 mesi a 0,25x, più di un anno a 2x. L'ordinamento dell'elenco per saldo usa ancora il valore del gioco base.\n\nSe confronti i veicoli tra loro solo con una stessa velocità calendario, i valori del gioco base li ordinano allo stesso modo. Il mod è utile quando leggi «Ultimo anno» come l'importo di un anno (per esempio per stimare in quanti anni un veicolo ripaga il suo prezzo) e quando cambi la velocità calendario durante la partita (si può confrontare il saldo dello stesso veicolo prima e dopo)."
 	},
 	"ko": {
-		"mod_name": "달력 기준 운송 수단 작년 잔액",
-		"mod_desc": "운송 수단 창의 '작년' 잔액과 '통계' 창 '운송 수단' 탭의 '잔액' 열이 이제 '달력 속도'와 관계없이 달력 기준 최근 1년을 합산합니다. 기본 게임은 항상 같은 길이의 게임 시간을 합산하므로 1x에서만 달력의 1년과 같고, 0.25x에서는 약 3개월, 2x에서는 1년보다 긴 기간이 됩니다. 목록을 잔액으로 정렬하는 순서는 기본 게임의 값을 그대로 씁니다."
+		"mod_name": "운송 수단 작년 잔액을 달력 속도에 맞춤",
+		"mod_desc": "운송 수단 창의 '작년' 잔액과 '통계' 창 '운송 수단' 탭의 '잔액' 열이 이제 '달력 속도'에 맞춰 달력 기준 최근 12개월을 합산합니다. 기본 게임은 여기서 달력 속도를 고려하지 않습니다. 항상 같은 길이의 게임 시간을 합산하므로 1x에서만 달력의 1년과 같고, 0.25x에서는 약 3개월, 2x에서는 1년보다 긴 기간이 됩니다. 목록을 잔액으로 정렬하는 순서는 기본 게임의 값을 그대로 씁니다.\n\n같은 달력 속도에서 운송 수단끼리 비교하기만 한다면 기본 게임의 값으로도 순서는 같습니다. 이 모드는 '작년' 값을 1년 동안의 금액으로 읽을 때(예: 운송 수단의 구입 가격과 비교해 본전을 찾는 데 몇 년이 걸리는지 가늠할 때)와 플레이 도중 달력 속도를 바꿨을 때(바꾸기 전과 후에 같은 운송 수단의 잔액을 비교할 수 있습니다) 도움이 됩니다."
 	},
 	"nl": {
-		"mod_name": "Voertuigsaldo 'Vorig jaar' over de laatste 12 maanden",
-		"mod_desc": "Het saldo 'Vorig jaar' in het voertuigvenster en de kolom 'Saldo' op het tabblad 'Voertuigen' van het venster 'Statistieken' tellen nu de laatste 12 maanden van de kalender op, bij elke 'Kalendersnelheid'. Het basisspel telt altijd dezelfde speeltijd op, die alleen bij 1x gelijk is aan een kalenderjaar: bij 0,25x ongeveer 3 maanden, bij 2x meer dan een jaar. Sorteren van de lijst op saldo gebruikt nog steeds de waarde van het basisspel."
+		"mod_name": "Voertuigsaldo 'Vorig jaar' volgt de kalendersnelheid",
+		"mod_desc": "Het saldo 'Vorig jaar' in het voertuigvenster en de kolom 'Saldo' op het tabblad 'Voertuigen' van het venster 'Statistieken' tellen nu de laatste 12 maanden van de kalender op, volgens de 'Kalendersnelheid'. Het basisspel houdt hier geen rekening met de kalendersnelheid. Het telt altijd dezelfde speeltijd op, die alleen bij 1x gelijk is aan een kalenderjaar: bij 0,25x ongeveer 3 maanden, bij 2x meer dan een jaar. Sorteren van de lijst op saldo gebruikt nog steeds de waarde van het basisspel.\n\nAls je voertuigen alleen onderling vergelijkt bij één kalendersnelheid, geven de waarden van het basisspel dezelfde volgorde. De mod helpt wanneer je 'Vorig jaar' leest als het bedrag van een jaar (bijvoorbeeld om te schatten in hoeveel jaar een voertuig zijn prijs terugverdient) en wanneer je de kalendersnelheid tijdens het spelen wijzigt (het saldo van hetzelfde voertuig is dan voor en na te vergelijken)."
 	},
 	"pl": {
-		"mod_name": "Bilans pojazdów „Ostatni rok” z ostatnich 12 miesięcy",
-		"mod_desc": "Bilans „Ostatni rok” w oknie pojazdu oraz kolumna „Bilans” na karcie „Pojazdy” okna „Statystyki” sumują teraz ostatnie 12 miesięcy kalendarza, niezależnie od ustawienia „Szybkość kalendarza”. Gra podstawowa zawsze sumuje ten sam czas gry, który odpowiada rokowi kalendarzowemu tylko przy 1x: przy 0,25x to około 3 miesiące, przy 2x ponad rok. Sortowanie listy według bilansu nadal używa wartości z gry podstawowej."
+		"mod_name": "Bilans pojazdów „Ostatni rok” według szybkości kalendarza",
+		"mod_desc": "Bilans „Ostatni rok” w oknie pojazdu oraz kolumna „Bilans” na karcie „Pojazdy” okna „Statystyki” sumują teraz ostatnie 12 miesięcy kalendarza, zgodnie z ustawieniem „Szybkość kalendarza”. Gra podstawowa nie uwzględnia tu szybkości kalendarza. Zawsze sumuje ten sam czas gry, który odpowiada rokowi kalendarzowemu tylko przy 1x: przy 0,25x to około 3 miesiące, przy 2x ponad rok. Sortowanie listy według bilansu nadal używa wartości z gry podstawowej.\n\nJeśli tylko porównujesz pojazdy między sobą przy jednej szybkości kalendarza, wartości z gry podstawowej dają tę samą kolejność. Mod pomaga, gdy czytasz „Ostatni rok” jako kwotę z jednego roku (na przykład, aby oszacować, po ilu latach pojazd zwróci swoją cenę) oraz gdy zmieniasz szybkość kalendarza w trakcie gry (bilans tego samego pojazdu można porównać przed zmianą i po niej)."
 	},
 	"pt_BR": {
-		"mod_name": "Saldo \"Último Ano\" dos veículos nos últimos 12 meses",
-		"mod_desc": "O saldo \"Último Ano\" da janela do veículo e a coluna \"Saldo\" da aba \"Veículos\" da janela \"Estatísticas\" agora somam os últimos 12 meses do calendário, em qualquer \"Velocidade do Calendário\". O jogo base sempre soma o mesmo tempo de jogo, que só equivale a um ano civil em 1x: cerca de 3 meses em 0,25x, mais de um ano em 2x. Ordenar a lista por saldo continua usando o valor do jogo base."
+		"mod_name": "Saldo \"Último Ano\" segue a velocidade do calendário",
+		"mod_desc": "O saldo \"Último Ano\" da janela do veículo e a coluna \"Saldo\" da aba \"Veículos\" da janela \"Estatísticas\" agora somam os últimos 12 meses do calendário, de acordo com a \"Velocidade do Calendário\". O jogo base não considera a Velocidade do Calendário aqui. Ele sempre soma o mesmo tempo de jogo, que só equivale a um ano civil em 1x: cerca de 3 meses em 0,25x, mais de um ano em 2x. Ordenar a lista por saldo continua usando o valor do jogo base.\n\nSe você só compara veículos entre si com uma mesma velocidade do calendário, os valores do jogo base os ordenam da mesma forma. O mod ajuda quando você lê \"Último Ano\" como o valor de um ano (por exemplo, para estimar em quantos anos um veículo paga o próprio preço) e quando você muda a velocidade do calendário durante o jogo (o saldo do mesmo veículo pode ser comparado antes e depois)."
 	},
 	"ru": {
-		"mod_name": "Баланс транспорта «Последний год» за 12 месяцев",
-		"mod_desc": "Баланс «Последний год» в окне транспортного средства и столбец «Баланс» на вкладке «Транспорт» окна «Статистика» теперь считают последние 12 месяцев календаря при любом значении «Скорость календаря». Базовая игра всегда суммирует одно и то же игровое время, которое равно календарному году только при 1x: при 0,25x это около 3 месяцев, при 2x — больше года. Сортировка списка по балансу по-прежнему использует значение базовой игры."
+		"mod_name": "Баланс транспорта «Последний год» по скорости календаря",
+		"mod_desc": "Баланс «Последний год» в окне транспортного средства и столбец «Баланс» на вкладке «Транспорт» окна «Статистика» теперь считают последние 12 месяцев календаря в соответствии с параметром «Скорость календаря». Базовая игра здесь не учитывает скорость календаря. Она всегда суммирует одно и то же игровое время, которое равно календарному году только при 1x: при 0,25x это около 3 месяцев, при 2x — больше года. Сортировка списка по балансу по-прежнему использует значение базовой игры.\n\nЕсли вы только сравниваете транспорт между собой при одной скорости календаря, значения базовой игры дают тот же порядок. Мод полезен, когда вы читаете «Последний год» как сумму за год (например, чтобы оценить, за сколько лет транспортное средство окупит свою цену), и когда вы меняете скорость календаря во время игры (баланс одного и того же транспортного средства можно сравнить до и после)."
 	},
 	"zh_CN": {
-		"mod_name": "载具“去年”结余按最近 12 个月计算",
-		"mod_desc": "载具窗口的“去年”结余，以及“数据”窗口“载具”标签页中的“结余”列，现在无论“日历速度”如何，都按日历上的最近 12 个月合计。基础游戏总是合计相同长度的游戏时间，只有在 1x 时才等于一个日历年：0.25x 时约为 3 个月，2x 时超过 1 年。列表按结余排序时仍使用基础游戏的数值。"
+		"mod_name": "载具“去年”结余跟随日历速度",
+		"mod_desc": "载具窗口的“去年”结余，以及“数据”窗口“载具”标签页中的“结余”列，现在随“日历速度”调整，合计日历上的最近 12 个月。基础游戏在这里不考虑日历速度。它总是合计相同长度的游戏时间，只有在 1x 时才等于一个日历年：0.25x 时约为 3 个月，2x 时超过 1 年。列表按结余排序时仍使用基础游戏的数值。\n\n如果只是在同一日历速度下比较载具之间的高低，基础游戏的数值给出的排序也一样。本模组在以下情况下有用：把“去年”的数值当作一年的金额来看时（例如与载具的购买价格比较，估算几年能回本），以及在游戏途中更改日历速度时（可以比较同一载具在更改前后的结余）。"
 	},
 	"zh_TW": {
-		"mod_name": "車輛「去年」收支按最近 12 個月計算",
-		"mod_desc": "車輛視窗的「去年」收支，以及「統計數據」視窗「車輛」分頁中的「收支」欄，現在不論「月曆速度」為何，都按月曆上的最近 12 個月合計。基礎遊戲總是合計相同長度的遊戲時間，只有在 1x 時才等於一個曆年：0.25x 時約為 3 個月，2x 時超過 1 年。清單按收支排序時仍使用基礎遊戲的數值。"
+		"mod_name": "車輛「去年」收支跟隨月曆速度",
+		"mod_desc": "車輛視窗的「去年」收支，以及「統計數據」視窗「車輛」分頁中的「收支」欄，現在隨「月曆速度」調整，合計月曆上的最近 12 個月。基礎遊戲在這裡不考慮月曆速度。它總是合計相同長度的遊戲時間，只有在 1x 時才等於一個曆年：0.25x 時約為 3 個月，2x 時超過 1 年。清單按收支排序時仍使用基礎遊戲的數值。\n\n如果只是在同一月曆速度下比較車輛之間的高低，基礎遊戲的數值給出的排序也一樣。本模組在以下情況下有用：把「去年」的數值當作一年的金額來看時（例如與車輛的購買價格比較，估算幾年能回本），以及在遊戲途中更改月曆速度時（可以比較同一車輛在更改前後的收支）。"
 	}
 }

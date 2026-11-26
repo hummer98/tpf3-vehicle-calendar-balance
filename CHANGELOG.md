@@ -1,12 +1,23 @@
 # Changelog
 
-All notable changes to Vehicle Last Year Balance at Any Calendar Speed are
+All notable changes to Vehicle Last Year Balance Follows Calendar Speed are
 recorded here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the mod uses
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html). The mod's
 `revision` in `mod.json` is MAJOR * 10000 + MINOR * 100 + PATCH.
 
 ## [Unreleased]
+
+### Changed
+- Renamed the mod to "Vehicle Last Year Balance Follows Calendar Speed". The
+  old title and texts ("at any Calendar Speed") read as if the mod ignored
+  the calendar speed; it is the base game that ignores it, and the mod makes
+  the balance follow it.
+- The descriptions in all 13 languages now say that the base game ignores
+  the Calendar Speed here, and add when the mod's value matters: reading
+  "Last Year" as a year's amount, and comparing a vehicle before and after a
+  change of the calendar speed.
+- The mod.io summary is English only, to stay within 250 bytes.
 
 ## [1.0.0] - 2026-11-25
 
