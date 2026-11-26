@@ -37,6 +37,13 @@ def catalog(lang):
         return gettext.GNUTranslations(f).gettext
 
 
+def catalog_word(lang, key):
+    # the vanilla word, or the English key where the game files are missing
+    if lang == "en" or not os.path.isdir(GAME_STRINGS):
+        return key
+    return catalog(lang)(key)
+
+
 class StringsTest(unittest.TestCase):
     def test_all_game_languages_have_the_same_keys(self):
         s = load_strings()
@@ -111,9 +118,11 @@ class StringsTest(unittest.TestCase):
 
     def test_release_title_is_the_mod_name(self):
         # the GitHub release and the tag message carry the mod's name
-        import sys
-        sys.path.insert(0, os.path.join(ROOT, "tools"))
-        import release
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(
+            "vcb_release_title", os.path.join(ROOT, "tools", "release.py"))
+        release = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(release)
         self.assertEqual(release.TITLE, load_modinfo()["name"])
 
     def test_texts_say_the_mod_follows_the_calendar_speed(self):
@@ -128,6 +137,27 @@ class StringsTest(unittest.TestCase):
             for key in ("mod_name", "mod_desc"):
                 for w in old:
                     self.assertNotIn(w, s[lang][key], "%s %s" % (lang, key))
+        # and each language says the balance follows the speed, in its first
+        # paragraph, and that the base game does not take the speed into
+        # account
+        follows = {"en": ("following the", "ignores the Calendar Speed"),
+                   "ja": ("に合わせて", "カレンダー速度を見ていません"),
+                   "de": ("passend zur", "berücksichtigt"),
+                   "es": ("de acuerdo con", "no tiene en cuenta"),
+                   "fr": ("en suivant", "ne tient pas compte"),
+                   "it": ("seguendo", "non tiene conto"),
+                   "ko": ("에 맞춰", "고려하지 않습니다"),
+                   "nl": ("volgens", "geen rekening met"),
+                   "pl": ("zgodnie z", "nie uwzględnia"),
+                   "pt_BR": ("de acordo com", "não considera"),
+                   "ru": ("в соответствии с", "не учитывает"),
+                   "zh_CN": ("随“日历速度”", "不考虑日历速度"),
+                   "zh_TW": ("隨「月曆速度」", "不考慮月曆速度")}
+        self.assertEqual(sorted(follows), sorted(LANGS))
+        for lang, words in follows.items():
+            first = s[lang]["mod_desc"].split("\n\n")[0]
+            for w in words:
+                self.assertIn(w, first, lang)
         info = load_modinfo()
         for w in old:
             self.assertNotIn(w, info["name"] + info["summary"]
@@ -140,6 +170,11 @@ class StringsTest(unittest.TestCase):
             self.assertEqual(s[lang]["mod_desc"].count("\n\n"), 1, lang)
         self.assertIn("pay back its price", s["en"]["mod_desc"])
         self.assertIn("元が取れるまでの年数", s["ja"]["mod_desc"])
+        # every translation names both cases: a year's amount and a change
+        # of the calendar speed during play
+        for lang in LANGS:
+            second = s[lang]["mod_desc"].split("\n\n")[1]
+            self.assertIn(catalog_word(lang, "Last Year"), second, lang)
 
 
 if __name__ == "__main__":
